@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+
+
+        }
+
+
+        :root {
+            --theme: coral;
+
+
+
+        }
+
+        .hero {
+            background-image: url(asset/images/bg.svg);
+            height: calc(100vh - 75px);
+            background-repeat: no-repeat;
+            background-position: bottom left;
+            background-size: cover;
+        }
+
+
+
+        .hero-img {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: calc(100vh - 75px);
+
+
+
+
+        }
+
+        .hero-content {
+            position: absolute;
+            top: 15%;
+            left: 10%;
+            color: aliceblue;
+
+
+
+
+        }
+
+        p {
+            width: 40%;
+            line-height: 1.7rem;
+            margin-bottom: 1.5rem;
+
+
+        }
+
+        .hero a {
+            color: var(--theme);
+            text-decoration: none;
+            border: 2px solid var(--theme);
+            padding: o.5rem 1.5em;
+
+
+        }
+
+        .w {
+
+            color: aliceblue;
+
+            background-color: coral;
+            text-decoration: none;
+        }
+
+        .nav {
+            background-color: var(--theme);
+            height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .nav a {
+            color: aliceblue;
+            text-decoration: none;
+
+        }
+
+        .skill {
+
+
+            width: 80%;
+            margin: 2rem auto 0px;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .prograss {
+            background-color: grey;
+            height: 2rem;
+            margin: 2rem 0;
+
+        }
+
+        .prograss-bar {
+            background-color: var(--theme);
+            height: 2rem;
+            /* width: 45%; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .fronted {
+
+            width: 50%;
+        }
+
+        .backend {
+
+            width: 50%;
+
+        }
+
+
+
+
+
+        .html {
+            width: 80%;
+
+
+        }
+
+        .css {
+            width: 60%;
+
+
+        }
+
+        .projects {
+            width: 80%;
+            margin: 2rem auto;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .card {
+            border: 2px solid var(--theme);
+            width: 25%;
+
+        }
+
+        .card img {
+            max-width: 100%;
+            padding: 4%;
+        }
+
+        .card-body {
+            padding: 2rem;
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>
+                hi my name jhon
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto distinctio accusamus omnis in, dolore
+                est labore nostrum a inventore ipsum corrupti, enim id magnam, optio quas totam esse eligendi? Adipisci!
+            </p>
+            <a href="">hire me</a>
+        </div>
+        <img src="asset/images/bg-dots.svg" alt="" class="hero-img">
+        <img src="asset/images/user.png" alt="" class="hero-img">
+
+    </div>
+    <div class="nav">
+        <a href="">Home</a>
+        <a href="">Education</a>
+        <a href="">Project</a>
+        <a href="">Experience</a>
+        <a href="">Experience</a>
+    </div>
+    </div>
+    <div class="skill">
+        <div class="fronted">
+            <div class="prograss">
+
+                <div class="prograss-bar html">HTML</div>
+
+            </div>
+
+            <div class="prograss">
+
+                <div class="prograss-bar css">CSS</div>
+
+            </div>
+
+        </div>
+        <div class="backend">
+            <div class="prograss">
+
+                <div class="prograss-bar html">HTML</div>
+
+            </div>
+
+            <div class="prograss">
+
+                <div class="prograss-bar css">CSS</div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="projects">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+                alt="">
+            <div class="card-body">
+                <h1>Todo</h1>
+                <p>Lorem</p>
+                <a href="">Visit</a>
+
+
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+                alt="">
+            <div class="card-body">
+                <h1>Todo</h1>
+                <p>Lorem</p>
+                <a href="">Game</a>
+
+
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+                alt="">
+            <div class="card-body">
+                <h1>Todo</h1>
+                <p>Lorem</p>
+                <a href="">Visit</a>
+
+
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+                alt="">
+            <div class="card-body">
+                <h1>Todo</h1>
+                <p>Lorem</p>
+                <a href="">Visit</a>
+
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        :root {
+            --theme: coral;
+
+
+
+
+        }
+
+        .hero {
+            background-image: url(asset/images/bg.svg);
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom right;
+        }
+
+        .hero-image {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100vh;
+
+        }
+
+        .con {
+            color: aliceblue;
+            position: absolute;
+            top: 18%;
+            left: 18%;
+
+
+        }
+
+        p {
+            width: 30%;
+            line-height: 1.7rem;
+            margin-bottom: 1.5rem;
+
+        }
+
+        .hero a {
+            border: 2px solid coral;
+            color: coral;
+            padding: 0.5rem 1.5rem;
+        }
+
+        .nav {
+            background-color: var(--theme);
+            height: 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+        }
+
+        .nav a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        .skill {
+
+
+            width: 80%;
+            margin: 2px auto 0px;
+            display: flex;
+        }
+
+        .prograss {
+            background-color: grey;
+            height: 2rem;
+            width: 80%;
+            margin: 2rem;
+
+        }
+
+
+        .prograss-bar {
+            background-color: var(--theme);
+            height: 2rem;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .fronted {
+            width: 50%;
+
+
+        }
+
+        .backend {
+
+            width: 50%;
+        }
+
+        .html {
+            width: 80%;
+        }
+
+        .css {
+            width: 50%;
+        }
+
+        .dango {
+
+            width: 40%;
+        }
+
+        .python {
+            width: 70%
+        }
+
+        .card {
+            border: coral solid 2px;
+            width: 20%;
+            margin: 2rem;
+
+        }
+
+        .card-bdy {
+            width: 300%;
+            padding: 1rem;
+
+        }
+
+        .card img {
+            width: 100%;
+            padding: 2rem;
+        }
+
+        .project {
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="con">
+            <h1>
+                hi my name is jhon
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id modi omnis rem voluptatibus tempore illo, ex
+                ut explicabo? Excepturi eaque magnam doloribus minus illo vero temporibus in dolorum amet nemo.</p>
+            <a href="">Hair me</a>
+
+
+
+        </div>
+
+
+
+        <img class="hero-image" src="asset/images/bg-dots.svg " alt=""></img>
+        <img class="hero-image" src="asset/images/user.png" alt=""></img>
+
+
+
+    </div>
+    <div class="nav">
+        <a href="">Home</a>
+        <a href="">Education</a>
+        <a href="">Study</a>
+        <a href="">School
+
+        </a>
+    </div>
+    <div class="skill">
+        <div class="fronted">
+            <div class="prograss">
+                <div class="prograss-bar html ">Html</div>
+            </div>
+            <div class="prograss">
+                <div class="prograss-bar css  ">CSS</div>
+            </div>
+        </div>
+
+        <div class="backend">
+            <div class="prograss">
+                <div class="prograss-bar dango">Dango gb</div>
+            </div>
+            <div class="prograss">
+                <div class="prograss-bar python ">Python</div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="project">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+                alt="">
+            <div class="card-bdy">
+                <h1>Dango</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ad tempora debitis expedita quos
+                    dolor
+                    deleniti harum asperiores voluptates, laudantium ratione et saepe maiores nesciunt nulla repellat
+                    ex,
+                    explicabo veritatis?</p>
+                <a href="">Visit</a>
+            </div>
+
+
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+                alt="">
+            <div class="card-bdy">
+                <h1>Dango</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ad tempora debitis expedita quos
+                    dolor
+                    deleniti harum asperiores voluptates, laudantium ratione et saepe maiores nesciunt nulla repellat
+                    ex,
+                    explicabo veritatis?</p>
+                <a href="">Visit</a>
+            </div>
+
+
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+                alt="">
+            <div class="card-bdy">
+                <h1>Dango</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ad tempora debitis expedita quos
+                    dolor
+                    deleniti harum asperiores voluptates, laudantium ratione et saepe maiores nesciunt nulla repellat
+                    ex,
+                    explicabo veritatis?</p>
+                <a href="">Visit</a>
+            </div>
+
+
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+                alt="">
+            <div class="card-bdy">
+                <h1>Dango</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ad tempora debitis expedita quos
+                    dolor
+                    deleniti harum asperiores voluptates, laudantium ratione et saepe maiores nesciunt nulla repellat
+                    ex,
+                    explicabo veritatis?</p>
+                <a href="">Visit</a>
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
